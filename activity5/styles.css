@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  /* background-color: black; */
+}
+a {
+ text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.button {
+  color: #E50914;
+  background-color: white;
+  font-style: normal;
+  font-family: Cambria, Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid #E50914;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+#youtube {
+  color: #FF0000 !important;
+}
