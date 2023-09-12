@@ -5,25 +5,30 @@
   <meta name="viewport" content="width=\, initial-scale=1.0">
   <title>Activity 5 - CSS Basics</title>
 
+  <!-- linked style css to html -->
   <link rel="stylesheet" href="styles.css">
 
+  <!-- created internal CSS, styles all <a> to have background-color -->
   <style>
     a {
-      background-color: rgba(211, 206, 206, 0.621);
+      background-color: whitesmoke;
     }
+    /* used id selector #title for <h1> font-family */
     #title {
       font-family: Cambria, Arial;
     }
   </style>
 </head>
 <body>
-
+<!-- created Header, Main and Footer -->
   <header>
     <h1 id="title">MY Most Visited Websites</h1>
   </header>
 
   <main>
     <ul>
+      <!-- created multiple anchor tags -->
+      <!-- applied inline CSS in #youtube -->
       <li><a id="youtube" style="color: black" href="https://www.youtube.com/" target="_blank">YouTube</a></li>
       <li><a id="facebook" href="https://www.facebook.com/" target="_blank">Facebook</a></li>
       <li><a id="instagram" href="https://www.instagram.com/" target="_blank">Instagram</a></li>
@@ -34,7 +39,6 @@
   </main>
 
   <footer>
-    <hr>
     Thank you for visiting the page.
   </footer>
 </body>

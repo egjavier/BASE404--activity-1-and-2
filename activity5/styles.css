@@ -12,10 +12,21 @@ a {
  text-decoration: none;
  line-height: 50px;
 }
+a:hover {
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.427);
+}
 ul {
   list-style: none;
 }
+h1, footer{
+  color: darkblue;
+  background-color: rgba(211, 206, 206, 0.621);
+  font-style: italic;
+  font-family: Cambria, Arial;
+  font-weight: bold;
+}
 
+/* created reusable button style and added the class to netflix <a> */
 .button, a {
   color: #E50914;
   background-color: white;
@@ -28,6 +39,7 @@ ul {
   padding: 10px 15px;
 }
 #youtube {
+  /* used !important */
   color: #FF0000 !important;
   border-color: #FF0000;
 }
