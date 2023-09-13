@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: lightblue;
+}
+.flex-item{
+  font: 500 5vw Poppins;
+  color: navy;
+  border: 5px solid navy;
+  border-radius: 2vw;
+  background-color: white;
+  padding: 3vw 5vw;
+  margin: 10vw 1vw;
+}
